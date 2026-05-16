@@ -1,0 +1,66 @@
+# 🎵 Band Name Generator
+
+A simple beginner Python project that generates a fun band name using the name of the city you grew up in and your pet's name.
+
+This project was created as part of **Day 1** of the **100 Days of Code: The Complete Python Pro Bootcamp** by **Dr. Angela Yu**.
+
+---
+
+# 🚀 How It Works
+
+The program asks the user:
+
+1. The city they grew up in
+2. Their pet's name
+
+It then combines both inputs to generate a band name.
+
+---
+
+# 🖥 Example
+
+```text
+Welcome to the Band Name Generator.
+Which city did you grow up in?
+Delhi
+
+What is the name of your pet?
+Bruno
+
+Your band name could be: Delhi Bruno
+```
+
+---
+
+# 🛠 Technologies Used
+
+- Python 3
+
+---
+
+# 📚 Concepts Practiced
+
+- `print()` function
+- `input()` function
+- Variables
+- String concatenation
+- Basic user interaction
+
+---
+
+# ▶️ Run the Program
+
+```bash
+python main.py
+```
+
+---
+
+# 📅 Course Information
+
+**Course:** 100 Days of Code - The Complete Python Pro Bootcamp  
+**Instructor:** Dr. Angela Yu
+
+---
+
+# ⭐ Day 1 Project
