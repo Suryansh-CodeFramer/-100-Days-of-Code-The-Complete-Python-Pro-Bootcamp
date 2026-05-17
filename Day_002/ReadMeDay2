@@ -1,0 +1,66 @@
+# 💰 Tip Calculator
+
+A simple Python program that calculates the total bill amount after adding a tip percentage.
+
+This project was created as part of **Day 2** of the **100 Days of Code: The Complete Python Pro Bootcamp** by **Dr. Angela Yu**.
+
+---
+
+# 🚀 How It Works
+
+The program asks the user:
+
+1. Total bill amount
+2. Tip percentage they want to give
+
+It then calculates the final total bill including the tip.
+
+---
+
+# 🖥 Example
+
+```text
+Welcome to the tip Calculator
+
+What was the total bill??  $100
+How much tip would you like to give??10%,  12% or 15%  ->15
+
+Total bill is: $115.0
+```
+
+---
+
+# 🛠 Technologies Used
+
+- Python 3
+
+---
+
+# 📚 Concepts Practiced
+
+- `print()` function
+- `input()` function
+- Variables
+- Data types (`float`, `int`)
+- Mathematical operations
+- `round()` function
+- f-strings
+
+---
+
+# ▶️ Run the Program
+
+```bash
+python Day2.py
+```
+
+---
+
+# 📅 Course Information
+
+**Course:** 100 Days of Code - The Complete Python Pro Bootcamp  
+**Instructor:** Dr. Angela Yu
+
+---
+
+# ⭐ Day 2 Project
