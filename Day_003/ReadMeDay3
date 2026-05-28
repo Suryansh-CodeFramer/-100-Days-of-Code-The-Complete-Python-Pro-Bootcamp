@@ -1,0 +1,80 @@
+# 🏝 Treasure Island
+
+A simple text-based adventure game built with Python where the player must make the correct choices to find the hidden treasure.
+
+This project was created as part of **Day 3** of the **100 Days of Code: The Complete Python Pro Bootcamp** by **Dr. Angela Yu**.
+
+---
+
+# 🎮 How the Game Works
+
+The player progresses through the game by making choices at different stages.
+
+Correct decisions lead to the treasure, while wrong choices result in a game over.
+
+Game Flow:
+1. Choose between `left` or `right`
+2. Choose between `Swim` or `Wait`
+3. Choose the correct door:
+   - Red
+   - Yellow
+   - Blue
+
+Only one path leads to victory.
+
+---
+
+# 🖥 Example Gameplay
+
+```text
+Welcome to Treasure Island.
+Your mission is to find the treasure
+
+left or right: left
+Swim or Wait: Wait
+Which door?
+Red
+Yellow
+Blue
+
+go again : Yellow
+
+you win
+```
+
+---
+
+# 🛠 Technologies Used
+
+- Python 3
+
+---
+
+# 📚 Concepts Practiced
+
+- `if`, `elif`, `else`
+- Nested conditionals
+- User input handling
+- String comparison
+- Multi-line strings
+- ASCII art
+- Basic game logic
+
+---
+
+# ▶️ Run the Program
+
+```bash
+python Day3.py
+```
+
+---
+
+# 📅 Course Information
+
+**Course:** 100 Days of Code - The Complete Python Pro Bootcamp  
+**Instructor:** Dr. Angela Yu
+
+---
+
+# ⭐ Day 3 Project
