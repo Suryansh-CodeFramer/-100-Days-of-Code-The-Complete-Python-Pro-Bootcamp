@@ -34,15 +34,49 @@ people = [
 ]
 
 
-def random_item_picking(c1, c2):
+def maxFollowers(c1, c2):
+    if c1["followers"] > c2["followers"]:
+        return c1
+    else:
+        return c2
+
+def logic():
     while True:
         choice1 = random.choice(people)
         choice2 = random.choice(people)
         if choice1["name"] != choice2["name"]:
-            return choice1, choice2
+            print(choice1 , choice2)
+            print(choice1["name"], choice2["name"])
+            print(choice1["followers"], choice2["followers"])
+
+            maxFollDic=maxFollowers(choice1,choice2)
+
+            print(f"WHO GOT MORE FOLLOWERS \n\n a: {choice1["name"]} b:{choice2['name']}")
+            aa=input("enter who got more followers A or B")
+            if aa.lower()=="a":
+                if choice1["followers"] ==maxFollDic["followers"]:
+                    print("you won")
+                    break
+                print("wrong guss")
+                continue
+            elif aa.lower()=="b":
+                if choice2["followers"]== maxFollDic["followers"]:
+                    print("you Win")
+                    break
+
+                print("wrong gusses")
+                continue
+            else:
+                print("wrong pick")
+                continue
+
+
+
+            # return choice1, choice2
+
 
         elif choice1["name"] == choice2["name"]:
             choice2=random.choice(people)
-c1,c2=random_item_picking(c1={},c2={})
 
-def logic():
+
+logic()
